@@ -1,4 +1,20 @@
 body {
-font-family: Arial;
-font-size: 20px;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 1.5;
+    color: green;
+}
+.title {
+    font-family: Georgia;
+    text-align: center;
+    font-weight: bold;  
+    color: mediumvioletred;
+}
+.justify {
+    text-align: justify;
+}
+.relises {
+    text-align: right;
+    font-size: 15px;
+    font-weight: 600;
 }
