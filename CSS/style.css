@@ -35,3 +35,8 @@ body {
     border: 1px dashed black;
     padding: 5px 10px 8px 15px;
 }
+.text-red {
+    color: teal;
+    font-style: italic;
+    font-weight: 700;
+}
