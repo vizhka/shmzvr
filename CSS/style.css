@@ -9,6 +9,7 @@ body {
     text-align: center;
     font-weight: bold;  
     color: mediumvioletred;
+    letter-spacing: 14px;
 }
 .justify {
     text-align: justify;
@@ -17,4 +18,6 @@ body {
     text-align: right;
     font-size: 15px;
     font-weight: 600;
+    list-style-type: disc;
+    list-style-position: inside;
 }
