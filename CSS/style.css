@@ -21,3 +21,17 @@ body {
     list-style-type: disc;
     list-style-position: inside;
 }
+.table {
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+}
+.table th {
+    text-align: right;
+    padding: 5px 10px 8px 15px;
+    color: brown;
+}
+.table td {
+    border: 1px dashed black;
+    padding: 5px 10px 8px 15px;
+}
