@@ -3,6 +3,7 @@ body {
     font-size: 20px;
     line-height: 1.5;
     color: green;
+   
 }
 .title {
     font-family: Georgia;
@@ -39,4 +40,25 @@ body {
     color: teal;
     font-style: italic;
     font-weight: 700;
+}
+.content {
+    margin: 10px 20px 30px 10px;
+}
+/* POST */
+.post {
+    width: 700px;
+    height: 600px;
+    padding: 15px 25px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid yellow;
+    background-color: peru;
+}
+.post-title {
+    margin: 0;
+    color: palegreen;
+
+}
+.post-text p {
+    margin: 0 0 10px 0;
 }
