@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Регистрация</title>
+</head>
+<body>
+    
+    <div class="auth">
+        <h1 class="auth-title">Регистрация</h1>
+    <form action="/" method="POST">
+    <div class="form-group">
+        <input class="input" type="text" name="name" 
+        placeholder="Ваше полное имя">
+    </div>
+    <div class="form-group">
+        <input class="input" type="email" name="email" 
+        placeholder="Ваш email">
+    </div>
+    <div class="form-group">
+        <input class="input" type="tel" name="tel" 
+        placeholder="Ваш телефон">
+    </div>
+    <div class="form-group">
+        <input class="input" type="password" name="password" 
+        placeholder="Ваш пароль"> 
+    </div>
+    <div class="form-group">
+        <input class="input" type="password" name="password_confirm" 
+        placeholder="Повторите Ваш пароль">
+   </div>
+
+    <div class="form-group">
+        <select class="select" name="city">
+            <option value="riga">Riga</option>
+            <option value="kaunas">Kaunas</option>
+            <option value="minsk">Minsk</option>
+        </select>
+    </div>
+    <div class="form-group">
+    <input type="checkbox" name="rules" id="rules">
+    <label for="rules">Принимаю правила и условия соглашения</label>
+</div>
+
+<button class="btn" type="submit">Отправить</button>
+    </form>
+    
+    
+    
+    </div>
+
+</body>
+</html>

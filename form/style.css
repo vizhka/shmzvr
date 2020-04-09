@@ -1,0 +1,74 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    color: black;
+    background-color: rgb(33, 67, 131);
+}
+/*Authorisation*/
+.auth{
+    width: 260px;
+    padding: 20px;
+
+    margin: 20px auto;
+    background-color: white;
+}
+.auth-title {
+    font-size: 20px;
+    color: rgb(75, 22, 75);
+    text-align: center;
+    margin: 0 0 15px;
+}
+/*input*/
+.form-group {
+    margin-bottom: 15px;
+}
+
+.input {
+    display: block;
+    width: 238px;
+    padding: 8px 10px;
+    border: 1px solid #ccc;
+    font-family: inherit;
+    font-size: 15px;
+    background-color: white;
+}
+.input:focus {
+    outline: none;
+    border-color: seagreen;
+}
+/*select*/
+.select{
+    display: block;
+    width: 260px;
+    height: 35px;
+    font-family: inherit;
+    font-size: 15px;
+    background-color: white;
+}
+.select:focus {
+    outline: none;
+    border-color: seagreen;
+}
+/*Button*/
+.btn {
+    display: block;
+    font-family: inherit;
+    font-size: 15px;
+    width: 260px;
+    border:0;
+    background-color: lawngreen;
+    padding: 10px;
+    color: black;
+    }
+.btn:focus{
+    outline: none;
+}    
+.btn:hover,:focus{
+    background-color: chocolate;
+    cursor: pointer;
+}
+.btn:active {
+ background-color: coral;
+}
