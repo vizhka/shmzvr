@@ -2,8 +2,7 @@ body {
     font-family: Arial;
     font-size: 20px;
     line-height: 1.5;
-    color: green;
-    background-image: url("../img/artage-io-thumb-11f0159309a171adda68a89ebf68323e.png");
+    margin: 0;
 }
 .title {
     font-family: Georgia;
@@ -128,4 +127,38 @@ body {
 }
 .form-title {
     margin:0 0 15px;
+}
+/* modal*/
+.modal {
+    width: 500px;
+    height: 200px;
+    background-color: darkcyan;
+    margin:20px auto;
+    position: relative;
+}
+.modal-title{
+    margin:0;
+}
+
+/*square*/
+.square {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: absolute;
+    top:-10px;
+    right: -10px;
+}
+.square.red {
+    background-color: red;
+    right: -15px;
+    top: -5px;
+}
+.square-fixed {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(141, 123, 22);
+    position: fixed;
+    top:0;
+    left: 0;
 }
