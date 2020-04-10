@@ -162,3 +162,8 @@ body {
     top:0;
     left: 0;
 }
+/*Pseudo*/
+.pseudo-title {
+    margin: 0;
+    font-size: 30px;
+}
