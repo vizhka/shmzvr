@@ -4,6 +4,11 @@ body {
     line-height: 1.5;
     margin: 0;
 }
+*,
+*::before,
+*::after {
+box-sizing: border-box;
+}    
 .title {
     font-family: Georgia;
     text-align: center;
@@ -166,4 +171,45 @@ body {
 .pseudo-title {
     margin: 0;
     font-size: 30px;
+}
+.pseudo-title::before{
+    content: "1.";
+}
+/*css3*/
+.element {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+
+    background-color: black;
+    border-radius: 10% 25% 45% 5%;
+    box-shadow: 0 0 20px yellow;
+}
+.element-title{
+    margin: 0;
+    text-shadow: 0 0 20px yellow;
+}
+/*FLEXBOX*/
+.page {
+    width:600px;
+    margin: 20px auto;
+}
+.header {
+    background-color: turquoise;
+    padding: 20px;
+}
+.content {
+    display: flex;
+}
+.sidebar{
+    width: 60%;
+    background-color: violet;
+}
+.main{
+    width:40%;
+    background-color: tomato;
+}
+.footer{
+    background-color: teal;
+    
 }

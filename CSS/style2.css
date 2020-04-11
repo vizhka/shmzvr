@@ -1,0 +1,24 @@
+/*FLEXBOX*/
+.page {
+    width:600px;
+    margin: 20px auto;
+}
+.header {
+    background-color: turquoise;
+    padding: 20px;
+}
+.content {
+    display: flex;
+}
+.sidebar{
+    width: 60%;
+    background-color: violet;
+}
+.main{
+    width:40%;
+    background-color: tomato;
+}
+.footer{
+    background-color: teal;
+    
+}
